@@ -1,0 +1,22 @@
+extends layout
+
+block content
+  div(id="content")
+    div.row
+      div.columns.small-12
+        div.confirm-page.text-center
+          div.brand-logo-container
+            div.brand-logo.centered
+              img(src="#{provider.logo_url}")
+
+          div.title= message
+          div.icon(style="display:none")
+            div.iconmelon.centered
+              svg(viewBox="0 0 32 32")
+                g(filter="")
+                  use(xlink:href="#{icon}")
+          if accessUrl
+            div.buttons
+              a(href="#{accessUrl}")
+                div.button.primary.radius Acceder
+
