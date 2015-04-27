@@ -1,6 +1,6 @@
-#Skills
+#VenturaStudios
 
-Skills UI prototype repository
+VenturaStudios website
 
 ##Installation
 
