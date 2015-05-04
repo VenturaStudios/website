@@ -58,6 +58,10 @@ p {
     color: #fff;
     background-color: #222;
 }
+.bg-coral{
+    background: #f05f40;
+    color: white;
+}
 
 .text-faded {
     color: rgba(255,255,255,.7);
